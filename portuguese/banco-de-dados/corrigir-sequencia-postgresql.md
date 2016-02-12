@@ -24,7 +24,7 @@ ORDER BY S.relname;
 Para fazer isso numa tabela individual, vai um exemplo:
 
 ```
-ALTER SEQUENCE product_id_seq RESTART WITH 100;
+ALTER SEQUENCE nome_seq RESTART WITH numero_desejado;
 ```
 
 Só copiar, colar e rodar!
