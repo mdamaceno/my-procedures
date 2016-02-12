@@ -21,4 +21,10 @@ WHERE
 ORDER BY S.relname;
 ```
 
+Para fazer isso numa tabela individual, vai um exemplo:
+
+```
+ALTER SEQUENCE product_id_seq RESTART WITH 100;
+```
+
 Só copiar, colar e rodar!
